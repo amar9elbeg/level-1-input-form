@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(90deg, cyan, purple);
+  justify-content: center;
+  align-items: center;
+}
+#form {
+  display: flex;
+  width: 800px;
+  height: 450px;
+  background-color: white;
+}
+#contactText {
+  background: -webkit-linear-gradient(60deg, cyan, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  margin-left: 150px;
+}
