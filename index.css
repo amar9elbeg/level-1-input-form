@@ -23,20 +23,97 @@ body {
     justify-content: center;
 }
 #whiteBox {
-    width: 1000px;
-    height: 550px;
-    z-index: 100;
-    background-color: #fff;
-    text-align: center;
+  width: 1000px;
+  height: 550px;
+  z-index: 100;
+  background-color: #fff;
+  text-align: center;
+}
+.container{
+  
 }
 #titleOne {
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 50px;
-    color: linear-gradient(
+    margin-top: 30px;
+    background-image: linear-gradient(120deg,#56D8E4,#9F00E9);
+    -webkit-background-clip: text;
+    color: transparent;
+    /* color: linear-gradient(
         120deg,
         #56D8E4,
         #9F00E9
         
-      );;
+      );; */
 }
+.userInfos {
+  font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.setOne {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  width: 400px;
+}
+.setTwo {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 50px;
+}
+.setThree {
+  color: black;
+  text-align: left;
+  margin-left: 80px;
+  width: 850px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  border-bottom: 2.5px solid #e2e2e2;
+  padding-bottom: 40px;
+}
+#infoOne {
+border-bottom: 2.5px solid #e2e2e2;
+padding-bottom: 10px;
+}
+#infoTwo {
+  border-bottom: 2.5px solid #e2e2e2;
+  padding-bottom: 10px;
+}
+#infoThree {
+  margin-top: 75px;
+  border-bottom: 2.5px solid #e2e2e2;
+  padding-bottom: 10px;
+}
+#infoFour {
+  margin-top: 75px;
+  border-bottom: 2.5px solid #e2e2e2;
+  padding-bottom: 10px;
+}
+.button {
+  text-align: left;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+#submitButton {
+  width: 200px;
+  height: 60px;
+  background-image: linear-gradient(120deg,#56D8E4,#9F00E9);
+  border-style: none;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+#submitButton:hover {
+  cursor: pointer;
+}
+  
