@@ -11,17 +11,19 @@
     <div class="container" id="whiteBox">
       <h1 id="titleOne">Responsive Contact us Form</h1>
       <div class="userInfos">
-
         <div class="columnOne">
-
           <div class="setOne">
-            <span id="infoOne">First Name</span>
-            <input class="userInputs" type="text" required />
+            <input class="userInputs" id="firstName" type="text" required />
+            <label for="firstName" id="labelFirstName">
+              <span id="infoOne">First Name</span>
+            </label>
           </div>
 
           <div class="setTwo">
-            <span id="infoThree">Email Adress</span>
-            <input class="userInputs" type="text" required />
+            <input class="userInputs" id="emailAdress" type="text" required />
+            <label for="emailAdress" id="labelEmail">
+              <span id="infoThree">Email Adress</span>
+            </label>
           </div>
 
           <!-- <input
@@ -34,14 +36,20 @@
           <!-- <span class="firstNameError hide" id="firstNameError">Required</span> -->
         </div>
 
+        <!-- style="position: relative; top: -30px; width: 100%; display: block; -->
+
         <div class="columnTwo">
           <div class="setThree">
-            <span id="infoTwo">Last Name</span>
-            <input class="userInputs" type="text" required />
+            <input class="userInputs" id="lastName" type="text" required />
+            <label for="lastName" id="labelLastName">
+              <span class="textTests" id="infoTwo">Last Name</span>
+            </label>
           </div>
           <div class="setFour">
-            <span id="infoFour">Website Name</span>
-            <input class="userInputs" type="text" required />
+            <input class="userInputs" id="websiteName" type="text" required />
+            <label for="websiteName" id="labelWebsite">
+              <span id="infoFour">Website Name</span>
+            </label>
           </div>
         </div>
         <!-- <div class="setFour">
