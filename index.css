@@ -51,3 +51,12 @@
 #Website {
   width: 45%;
 }
+#wym {
+  width: 300px;
+}
+#thirdDiv {
+  display: flex;
+  margin-top: 40px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
