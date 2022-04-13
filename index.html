@@ -17,6 +17,7 @@
             <label for="firstName" id="labelFirstName">
               <span id="infoOne">First Name</span>
             </label>
+            <span class="requiredFields hide" id="firstNameError">Please enter your First Name</span>
           </div>
 
           <div class="setTwo">
@@ -24,6 +25,7 @@
             <label for="emailAdress" id="labelEmail">
               <span id="infoThree">Email Adress</span>
             </label>
+            <span class="requiredFields hide" id="emailError">Please enter your Email Adress</span>
           </div>
 
           <!-- <input
@@ -44,28 +46,29 @@
             <label for="lastName" id="labelLastName">
               <span class="textTests" id="infoTwo">Last Name</span>
             </label>
+            <span class="requiredFields hide" id="lastNameError">Please enter your Last Name</span>
           </div>
           <div class="setFour">
             <input class="userInputs" id="websiteName" type="text" required />
             <label for="websiteName" id="labelWebsite">
               <span id="infoFour">Website Name</span>
             </label>
+            <span class="requiredFields hide" id="websiteError">Please enter your Website Name</span>
           </div>
         </div>
-        <!-- <div class="setFour">
-          <span id="infoFour">Website Name</span>
-          <input class="userInputs" type="text" required />
-        </div> -->
+      </div>
+      <div class="setFive">
+        <label for="messageArea" id="labelUserMessage">
+          <span id="userMessage">Write your message</span>
+        </label>
+        <textarea name="msgArea" class="userInputs" id="messageArea" cols="81.9" rows="4"></textarea>
+        <span class="requiredFields hide" id="messageError">Please enter your Message</span>
       </div>
 
-      <!-- <div class="setFive">
-        <span id="userMessage">Write your message</span>
-        <input class="userInputs" type="text" required />
-      </div> -->
 
-      <!-- <div class="button">
-        <button id="submitButton">SUBMIT</button>
-      </div> -->
+      <div class="button">
+        <input type="submit" id="submitButton">SUBMIT</input>
+      </div>
     </div>
 
     <script src="index.js"></script>
