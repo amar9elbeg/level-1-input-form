@@ -13,7 +13,7 @@ body {
 }
 #whiteBox {
   width: 1000px;
-  height: 550px;
+  height: 600px;
   z-index: 100;
   background-color: #fff;
   text-align: center;
@@ -34,7 +34,7 @@ body {
   color: black;
   display: flex;
   flex-direction: row;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .userInputs {
   border-style: none;
@@ -53,6 +53,14 @@ body {
 }
 .userInputs:focus + label > span,
 .userInputs:valid + label > span {
+  -webkit-transition: top 0.2s ease, font-size 0.2s ease;
+  transition: top 0.2s ease, font-size 0.2s ease;
+  position: absolute;
+  top: -25px;
+  font-size: 17px;
+  color: #56d8e4;
+}
+#emailAdress:focus + label > span {
   -webkit-transition: top 0.2s ease, font-size 0.2s ease;
   transition: top 0.2s ease, font-size 0.2s ease;
   position: absolute;
@@ -80,7 +88,8 @@ body {
   white-space: nowrap;
   overflow-x: hidden;
 }
-#messageArea:focus {
+#messageArea:focus,
+#messageArea:valid {
   -webkit-transition: width 0.4s ease;
   transition: width 0.4s ease;
   width: 100%;
@@ -112,29 +121,36 @@ body {
   margin-left: 35px;
 }
 .setFive {
-  margin-top: 50px;
+  margin-top: 25px;
   margin-left: 80px;
   text-align: left;
   width: 835px;
 }
+.setSix {
+  text-align: left;
+  margin-top: 50px;
+}
+.setSeven {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 35px;
+}
 #infoOne {
-  z-index: 5;
-  /* display: block; */
   position: absolute;
 }
 #infoTwo {
-  z-index: 5;
-  /* display: block; */
   position: absolute;
 }
 #infoThree {
-  z-index: 5;
-  /* display: block; */
   position: absolute;
 }
 #infoFour {
-  z-index: 5;
-  /* display: block; */
+  position: absolute;
+}
+#infoFive {
+  position: absolute;
+}
+#infoSix {
   position: absolute;
 }
 #userMessage {
@@ -175,18 +191,31 @@ body {
   width: 100%;
   display: block;
 }
+#labelPassword {
+  position: relative;
+  width: 100%;
+  display: block;
+  top: -30px;
+}
+#labelPasswordConfirm {
+  position: relative;
+  width: 100%;
+  display: block;
+  top: -30px;
+}
 .button {
   text-align: left;
   margin-left: 80px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 #submitButton {
   width: 215px;
   height: 55px;
-  background-image: linear-gradient(120deg,#56D8E4,#9F00E9);
+  background-image: linear-gradient(120deg, #56d8e4, #9f00e9);
   border-style: none;
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 600;
   font-size: 25px;
 }
@@ -198,8 +227,18 @@ body {
   font-size: 15px;
   display: none;
   position: relative;
+  top: 4px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.requiredAmount {
+  color: red;
+  font-size: 15px;
+  display: none;
+  position: relative;
   top: -1px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #messageError {
   position: relative;

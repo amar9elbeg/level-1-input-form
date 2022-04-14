@@ -18,27 +18,27 @@
               <span id="infoOne">First Name</span>
             </label>
             <span class="requiredFields hide" id="firstNameError">Please enter your First Name</span>
+            <span class="requiredAmount hide" id="firstNameErrorTwo">First Name needs to be more than three characters</span>
           </div>
 
           <div class="setTwo">
-            <input class="userInputs" id="emailAdress" type="text" required />
+            <input class="userInputs" id="emailAdress" type="email" required />
             <label for="emailAdress" id="labelEmail">
               <span id="infoThree">Email Adress</span>
             </label>
             <span class="requiredFields hide" id="emailError">Please enter your Email Adress</span>
+            <span class="requiredAmount hide" id="emailErrorTwo">Email Adress is invalid</span>
+          </div> 
+
+          <div class="setSix">
+            <input class="userInputs" id="passwordName" type="password" required />
+            <label for="passwordName" id="labelPassword">
+              <span id="infoFive">Password</span>
+            </label>
+            <span class="requiredFields hide" id="passwordError">Please enter your Password</span>
+            <span class="requiredAmount hide" id="passwordErrorTwo">Password needs to be more than seven characters</span>
           </div>
-
-          <!-- <input
-              class="userInputs"
-              id="firstName"
-              type="text"
-              required
-              value=""
-            /> -->
-          <!-- <span class="firstNameError hide" id="firstNameError">Required</span> -->
         </div>
-
-        <!-- style="position: relative; top: -30px; width: 100%; display: block; -->
 
         <div class="columnTwo">
           <div class="setThree">
@@ -46,14 +46,26 @@
             <label for="lastName" id="labelLastName">
               <span class="textTests" id="infoTwo">Last Name</span>
             </label>
-            <span class="requiredFields hide" id="lastNameError">Please enter your Last Name</span>
+            <span class="requiredFields" id="lastNameError">Please enter your Last Name</span>
+            <span class="requiredAmount" id="lastNameErrorTwo">Last Name needs to be more than three characters</span>
           </div>
+
           <div class="setFour">
             <input class="userInputs" id="websiteName" type="text" required />
             <label for="websiteName" id="labelWebsite">
               <span id="infoFour">Website Name</span>
             </label>
-            <span class="requiredFields hide" id="websiteError">Please enter your Website Name</span>
+            <span class="requiredFields" id="websiteError">Please enter your Website Name</span>
+            <span class="requiredAmount" id="websiteErrorTwo">Website Name needs to be more than three characters</span>
+          </div>
+
+          <div class="setSeven">
+            <input class="userInputs" id="passwordNameConfirm" type="password" required />
+            <label for="passwordNameConfirm" id="labelPasswordConfirm">
+              <span id="infoSix">Confirm Password</span>
+            </label>
+            <span class="requiredFields hide" id="passwordErrorConfirm">Please confirm your Password</span>
+            <span class="requiredAmount hide" id="passwordErrorConfirmTwo">Password doesn't match</span>
           </div>
         </div>
       </div>
@@ -67,7 +79,7 @@
 
 
       <div class="button">
-        <input type="submit" id="submitButton">SUBMIT</input>
+        <input type="submit" id="submitButton"></input>
       </div>
     </div>
 
