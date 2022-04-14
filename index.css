@@ -39,6 +39,9 @@
 }
 .txt {
   width: 100%;
+  outline: none;
+  position: relative;
+  display: block;
 }
 #secondDiv {
   display: flex;
@@ -48,7 +51,7 @@
   padding-right: 48px;
 }
 #Email,
-#Website {
+#web {
   width: 45%;
 }
 #wym {
@@ -60,3 +63,37 @@
   padding-left: 48px;
   padding-right: 48px;
 }
+#input1 {
+  display: flex;
+  position: relative;
+}
+
+#lastNameLabel {
+  position: relative;
+  top: -22px;
+}
+
+#emailLabel {
+  position: relative;
+  top: -22px;
+}
+#webLabel {
+  position: relative;
+  top: -22px;
+}
+#nameLabel {
+  position: relative;
+  top: -22px;
+}
+.txt {
+  border-style: none;
+  border-bottom: 1px solid black;
+}
+
+input.txt:focus + label > span,
+input.txt:valid + label > span {
+  color: cyan;
+  position: relative;
+  top: -20px;
+  font-size: 17px;
+} 
