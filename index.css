@@ -97,3 +97,12 @@ input.txt:valid + label > span {
   top: -20px;
   font-size: 17px;
 } 
+#button {
+  background: -webkit-linear-gradient(60deg, cyan, purple);
+  border: none;
+  color: white;
+  width: 140px;
+  height: 30px;
+  margin-left: 50px;
+}
+
