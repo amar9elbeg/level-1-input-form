@@ -12,6 +12,46 @@ const emailRequired = documen.getElementById("emailEmpty")
 const emailMoreThan3 = document.getAnimations("emailMoreThan3")
 
 
+const web = document.getElementById("web")
+const webRequired = document.getElementById("webEmpty")
+const webMoreThan3 = document.getElementById("webMoreThan3")
+
+const message = document.getElementById("message")
+const messageRequired = document.getElementById("messageEmpty")
+const messageMoreThan3 = document.getElementById("messageMoreThan3")
+
+function validateMessage(value) {
+  if (value.length === 0) {
+    messageRequired.style.display = "flex";
+  } else if (value.length <= 3) {
+    messageRequired.style.display = "none";
+    messageMoreThan3.style.display = "flex";
+  } else {
+    messageRequired.style.display = "none";
+    messageMoreThan3.style.display = "none";
+  }
+
+function validateWeb(value) {
+  if (value.length === 0) {
+    webRequired.style.display = "flex";
+  } else if (value.length <= 3) {
+    webRequired.style.display = "none";
+    webMoreThan3.style.display = "flex";
+  } else {
+    webRequired.style.display = "none";
+    webMoreThan3.style.display = "none";
+  }
+function validateEmail(value) {
+  if (value.length === 0) {
+    emailRequired.style.display = "flex";
+  } else if (value.length <= 3) {
+    emailRequired.style.display = "none";
+    emailMoreThan3.style.display = "flex";
+  } else {
+    emailRequired.style.display = "none";
+    emailMoreThan3.style.display = "none";
+  }
+}
 
 function validateLastName(value) {
     if (value.length === 0) {
@@ -37,7 +77,10 @@ function validateFirstName(value) {
   }
 }
 
-submitButton.addEventListener("click", function () {
+submitButton.addEventListener("click"), function () {
   validateFirstName(firstName.value);
   validateLastName(lastName.value);
-});
+  validateEmail(Email.value);
+  validateWeb(web.value);
+  validateMessage(message.value);``
+})
