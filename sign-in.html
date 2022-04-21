@@ -5,8 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="sign-in.css" />
   </head>
   <body>
-    hello from sign-in page
+    <div class="blobContainer">
+      <!-- <div class="blobOne"></div> -->
+      <div class="blobTwo"></div>
+      <div class="blobThree"></div>
+      <div>
+        <svg
+          viewBox="0 0 800 500"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="100%"
+          id="blobSvg"
+        >
+          <g transform="translate(230, -203)">
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color: rgb(194, 229, 156)"></stop>
+                <stop
+                  offset="100%"
+                  style="stop-color: rgb(100, 179, 244)"
+                ></stop>
+              </linearGradient>
+            </defs>
+            <path
+              class="blob"
+              d="M445,306.5Q445,363,393,385Q341,407,295.5,404Q250,401,192.5,424.5Q135,448,85,411Q35,374,35,312Q35,250,73,210Q111,170,118.5,102.5Q126,35,188,43Q250,51,302.5,60Q355,69,395.5,106Q436,143,440.5,196.5Q445,250,445,306.5Z"
+              fill="url(#gradient)"
+            ></path>
+          </g>
+          <g transform="translate(198, -101)">
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color: rgb(194, 229, 156)"></stop>
+                <stop
+                  offset="100%"
+                  style="stop-color: rgb(100, 179, 244)"
+                ></stop>
+              </linearGradient>
+            </defs>
+            <path
+              class="blob"
+              d="M445,306.5Q445,363,393,385Q341,407,295.5,404Q250,401,192.5,424.5Q135,448,85,411Q35,374,35,312Q35,250,73,210Q111,170,118.5,102.5Q126,35,188,43Q250,51,302.5,60Q355,69,395.5,106Q436,143,440.5,196.5Q445,250,445,306.5Z"
+              fill="url(#gradient)"
+            ></path>
+          </g>
+          <g transform="translate(252, 29)">
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color: rgb(194, 229, 156)"></stop>
+                <stop
+                  offset="100%"
+                  style="stop-color: rgb(100, 179, 244)"
+                ></stop>
+              </linearGradient>
+            </defs>
+            <path
+              class="blob"
+              d="M445,306.5Q445,363,393,385Q341,407,295.5,404Q250,401,192.5,424.5Q135,448,85,411Q35,374,35,312Q35,250,73,210Q111,170,118.5,102.5Q126,35,188,43Q250,51,302.5,60Q355,69,395.5,106Q436,143,440.5,196.5Q445,250,445,306.5Z"
+              fill="url(#gradient)"
+            ></path>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <!-- figure out blobs after -->
+    <div class="signInContainer">
+      <div>
+        <h1 id="loginTitle">Login</h1>
+      </div>
+      <div class="text-container">
+        <p class="loginTexts">Welcome Back! Login to acess your account.</p>
+        <p>Did you <a href="" id="forgotPassword">forget your password?</a></p>
+      </div>
+      <div class="inputContainer">
+        <div class="inputOne">
+          <input class="userInputs" id="firstName" type="text" required />
+          <label for="firstName" id="labelFirstName">
+            <span id="infoOne">Username</span>
+          </label>
+        </div>
+        <div class="inputTwo">
+          <input class="userInputs" id="password" type="text" required />
+          <label for="password" id="labelPassword">
+            <span id="infoTwo">Password</span>
+          </label>
+        </div>
+        <div class="button">
+          <button id="buttonInput">CONTINUE</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

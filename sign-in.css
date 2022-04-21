@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.signInContainer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.text-container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+#loginTitle {
+  color: #5c558c;
+  border-bottom: 4px solid orange;
+  padding-bottom: 20px;
+}
+.loginTexts {
+  margin-top: 40px;
+  padding-bottom: 10px;
+}
+p {
+  color: #9d9b9d;
+  font-weight: bold;
+}
+#forgotPassword {
+  text-decoration: none;
+  color: #e889ae;
+}
+.userInputs {
+  border-style: none;
+  border-bottom: 1px solid #d9d9d9;
+  outline: none;
+  width: 400px;
+  height: 25px;
+  font-size: 20px;
+  padding-bottom: 5px;
+  margin-top: 25px;
+}
+#labelFirstName {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  position: relative;
+  top: -25px;
+  width: 100%;
+  display: block;
+  color: #d9d9d9;
+  font-weight: bold;
+}
+#labelPassword {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  position: relative;
+  top: -25px;
+  width: 100%;
+  display: block;
+  color: #d9d9d9;
+  font-weight: bold;
+}
+#inputTwo {
+  margin-top: 50px;
+}
+#infoOne {
+  position: absolute;
+}
+#infoTwo {
+  position: absolute;
+}
+.button {
+  margin-top: 50px;
+}
+#buttonInput {
+  background-image: linear-gradient(173deg, #fe6daa, #9583f1);
+  width: 400px;
+  height: 50px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.blobContainer {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  height: 100%;
+}
+.blobOne {
+  position: absolute;
+  background-color: red;
+  width: 40%;
+  height: 4vh;
+  border-radius: 0% 0% 0% 0% 0% 0% 0% 70%;
+}
+.blobTwo {
+  position: absolute;
+  background-color: #feb646;
+  width: 150px;
+  height: 150px;
+  margin-top: 350px;
+  border-radius: 50%;
+  margin-right: 100px;
+}
+.blobThree {
+  position: absolute;
+  background-color: #20e8fe;
+  width: 80px;
+  height: 80px;
+  margin-top: 550px;
+  border-radius: 50%;
+  margin-right: 135px;
+}
