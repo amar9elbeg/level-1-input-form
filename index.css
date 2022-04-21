@@ -84,10 +84,12 @@
 #nameLabel {
   position: relative;
   top: -22px;
+  cursor: pointer;
 }
 .txt {
   border-style: none;
   border-bottom: 1px solid black;
+  cursor: pointer;
 }
 
 input.txt:focus + label > span,
@@ -105,5 +107,9 @@ input.txt:valid + label > span {
   height: 40px;
   margin-left: 50px;
   margin-top: 60px;
+  cursor: pointer;
 }
-
+.redText {
+  margin-top: -15px;
+  color: red; padding-top: 4px; display: none
+}
