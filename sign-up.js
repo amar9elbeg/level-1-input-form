@@ -1,4 +1,4 @@
-const firstName = document.getElementById("firstName");
+export const firstName = document.getElementById("firstName");
 const firstNameError = document.getElementById("firstNameError");
 
 const emailAdress = document.getElementById("emailAdress");
@@ -10,7 +10,7 @@ const lastNameError = document.getElementById("lastNameError");
 const websiteName = document.getElementById("websiteName");
 const websiteError = document.getElementById("websiteError");
 
-const passwordName = document.getElementById("passwordName");
+export const passwordName = document.getElementById("passwordName");
 const passwordError = document.getElementById("passwordError");
 
 const passwordNameConfirm = document.getElementById("passwordNameConfirm");
@@ -206,3 +206,4 @@ submitButton.addEventListener("click", function () {
     console.log("Error")
   }
 });
+

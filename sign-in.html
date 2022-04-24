@@ -8,96 +8,145 @@
     <link rel="stylesheet" href="sign-in.css" />
   </head>
   <body>
-    <div class="blobContainer">
-      <!-- <div class="blobOne"></div> -->
-      <div class="blobTwo"></div>
-      <div class="blobThree"></div>
-      <div>
-        <svg
-          viewBox="0 0 800 500"
-          preserveAspectRatio="none"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          width="100%"
-          id="blobSvg"
-        >
-          <g transform="translate(230, -203)">
-            <defs>
-              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" style="stop-color: rgb(194, 229, 156)"></stop>
-                <stop
-                  offset="100%"
-                  style="stop-color: rgb(100, 179, 244)"
-                ></stop>
-              </linearGradient>
-            </defs>
+    <div class="mainContainer">
+      <div class="blobContainer">
+        <div class="blobContent">
+          <a href="https://www.youtube.com/watch?v=Gy6COqAVBDo">
+            <div class="tutorial">
+              <span>Tutorial</span>
+            </div>
+          </a>
+          <a href="http://127.0.0.1:5500/sign-up.html#">
+            <div class="sign-up">
+              <span>Sign up</span>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/watch?v=vyVpRiqOvt4">
+            <div class="blog">
+              <span>Blog</span>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/watch?v=Y2VlTpe4srk">
+            <div class="learn-more">
+              <span>Learn More</span>
+            </div>
+          </a>
+        </div>
+        <div class="blobOne">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
             <path
-              class="blob"
-              d="M445,306.5Q445,363,393,385Q341,407,295.5,404Q250,401,192.5,424.5Q135,448,85,411Q35,374,35,312Q35,250,73,210Q111,170,118.5,102.5Q126,35,188,43Q250,51,302.5,60Q355,69,395.5,106Q436,143,440.5,196.5Q445,250,445,306.5Z"
-              fill="url(#gradient)"
-            ></path>
-          </g>
-          <g transform="translate(198, -101)">
-            <defs>
-              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" style="stop-color: rgb(194, 229, 156)"></stop>
-                <stop
-                  offset="100%"
-                  style="stop-color: rgb(100, 179, 244)"
-                ></stop>
-              </linearGradient>
-            </defs>
+              fill="#FFD6E8"
+              d="M33.5,-39.6C45.6,-29.8,59,-21.3,65.9,-7.8C72.9,5.7,73.4,24.2,65.1,36.7C56.8,49.2,39.7,55.6,24.5,56.4C9.3,57.2,-3.9,52.2,-19.9,48.9C-35.9,45.6,-54.5,43.9,-61.2,34.4C-67.8,24.8,-62.4,7.4,-60.7,-12.2C-59.1,-31.8,-61.2,-53.6,-51.7,-63.8C-42.2,-74,-21.1,-72.6,-5.2,-66.4C10.7,-60.2,21.5,-49.3,33.5,-39.6Z"
+              transform="translate(100 100)"
+            />
+          </svg>
+        </div>
+        <div class="blobTwo"></div>
+        <div class="blobThree"></div>
+        <div class="blobFour"></div>
+        <div class="blobFive">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
             <path
-              class="blob"
-              d="M445,306.5Q445,363,393,385Q341,407,295.5,404Q250,401,192.5,424.5Q135,448,85,411Q35,374,35,312Q35,250,73,210Q111,170,118.5,102.5Q126,35,188,43Q250,51,302.5,60Q355,69,395.5,106Q436,143,440.5,196.5Q445,250,445,306.5Z"
-              fill="url(#gradient)"
-            ></path>
-          </g>
-          <g transform="translate(252, 29)">
-            <defs>
-              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" style="stop-color: rgb(194, 229, 156)"></stop>
-                <stop
-                  offset="100%"
-                  style="stop-color: rgb(100, 179, 244)"
-                ></stop>
-              </linearGradient>
-            </defs>
-            <path
-              class="blob"
-              d="M445,306.5Q445,363,393,385Q341,407,295.5,404Q250,401,192.5,424.5Q135,448,85,411Q35,374,35,312Q35,250,73,210Q111,170,118.5,102.5Q126,35,188,43Q250,51,302.5,60Q355,69,395.5,106Q436,143,440.5,196.5Q445,250,445,306.5Z"
-              fill="url(#gradient)"
-            ></path>
-          </g>
-        </svg>
+              fill="#E8DAFF"
+              d="M41.7,-69.1C53.6,-65.3,62.7,-53.4,69.1,-40.5C75.4,-27.6,79,-13.8,79.1,0.1C79.2,14,75.9,27.9,66.8,36C57.7,44.2,42.9,46.4,30.8,53.9C18.7,61.3,9.4,73.9,-1.5,76.5C-12.3,79,-24.6,71.5,-33.9,62.4C-43.3,53.4,-49.6,42.9,-58,32.2C-66.3,21.5,-76.6,10.8,-77.4,-0.4C-78.2,-11.6,-69.3,-23.3,-59.1,-30.7C-48.9,-38.1,-37.3,-41.3,-27.2,-46.2C-17.1,-51.1,-8.6,-57.7,3.1,-63.1C14.8,-68.6,29.7,-72.9,41.7,-69.1Z"
+              transform="translate(100 100)"
+            />
+          </svg>
+        </div>
+        <div class="topRightBlobContainer">
+          <div class="topRightBlob">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:svgjs="http://svgjs.dev/svgjs"
+              viewBox="0 0 600 600"
+              opacity="1"
+            >
+              <path
+                d="M441.08392333984375 540.7342529296875C428.6713358561198 500.87411244710285 156.81818135579428 189.68531290690103 114.86013793945312 167.3076934814453C72.90209452311197 144.9300740559896 134.96503194173178 344.2307764689128 189.33566284179688 406.4685363769531C243.70629374186197 468.70629628499347 453.4965108235677 580.5943934122721 441.08392333984375 540.7342529296875C428.6713358561198 500.87411244710285 156.81818135579428 189.68531290690103 114.86013793945312 167.3076934814453 "
+                fill="#EC70BD"
+                transform="matrix(1.5221884151881495,-0.288161534473,-0.10112426305593547,0.8176690614616232,-105.55236695100223,143.34254419177853)"
+              ></path>
+            </svg>
+          </div>
+          <div class="topRightBlobTwo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:svgjs="http://svgjs.dev/svgjs"
+              viewBox="0 0 600 600"
+              opacity="1"
+            >
+              <path
+                d="M441.08392333984375 540.7342529296875C428.6713358561198 500.87411244710285 156.81818135579428 189.68531290690103 114.86013793945312 167.3076934814453C72.90209452311197 144.9300740559896 134.96503194173178 344.2307764689128 189.33566284179688 406.4685363769531C243.70629374186197 468.70629628499347 453.4965108235677 580.5943934122721 441.08392333984375 540.7342529296875C428.6713358561198 500.87411244710285 156.81818135579428 189.68531290690103 114.86013793945312 167.3076934814453 "
+                fill="#EC70BD"
+                transform="matrix(1.5221884151881495,-0.288161534473,-0.10112426305593547,0.8176690614616232,-105.55236695100223,143.34254419177853)"
+              ></path>
+            </svg>
+          </div>
+          <div class="topRightBlobThree">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:svgjs="http://svgjs.dev/svgjs"
+              viewBox="0 0 600 600"
+              opacity="1"
+            >
+              <path
+                d="M412.7622375488281,337.7622375488281C439.8601379394531,317.13286717732746,489.1608378092448,145.80419286092123,451.57342529296875,105.94405364990234C413.9860127766927,66.08391443888345,214.33566284179688,77.97203191121419,187.23776245117188,98.60140228271484C160.13986206054688,119.2307726542155,251.39861043294272,189.86013666788736,288.98602294921875,229.72027587890625C326.5734354654948,269.5804150899251,385.6643371582031,358.3916079203288,412.7622375488281,337.7622375488281C439.8601379394531,317.13286717732746,489.1608378092448,145.80419286092123,451.57342529296875,105.94405364990234"
+                fill="#EC70BD"
+                transform="matrix(1.0310912041257634,-0.17632698070846498,-0.17632698070846498,1,26.99715340082321,57.08378021987937)"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="signInContainer">
+        <div>
+          <h1 id="loginTitle">Login</h1>
+        </div>
+        <div class="text-container">
+          <p class="loginTexts">Welcome Back! Login to acess your account.</p>
+          <p>
+            Did you <a href="https://www.youtube.com/watch?v=sPi8iL6S0Hk" id="forgotPassword">forget your password?</a>
+          </p>
+        </div>
+        <div class="inputContainer">
+          <div class="loginInputOne">
+            <input
+              class="loginUserInputs"
+              id="loginName"
+              type="text"
+              required
+            />
+            <label for="loginName" id="labelLoginName">
+              <span id="loginInfoOne">Username</span>
+            </label>
+          </div>
+          <div class="loginInputTwo">
+            <input
+              class="loginUserInputs"
+              id="loginPassword"
+              type="text"
+              required
+            />
+            <label for="loginPassword" id="labelLoginPassword">
+              <span id="loginInfoTwo">Password</span>
+            </label>
+            <div class="sign-in-errors">
+              <span id="loginError">Username and password required</span>
+              <span id="loginErrorTwo">Incorrect username or password.</span>
+            </div>
+          </div>
+          <div class="button">
+            <button id="loginButton">CONTINUE</button>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- figure out blobs after -->
-    <div class="signInContainer">
-      <div>
-        <h1 id="loginTitle">Login</h1>
-      </div>
-      <div class="text-container">
-        <p class="loginTexts">Welcome Back! Login to acess your account.</p>
-        <p>Did you <a href="" id="forgotPassword">forget your password?</a></p>
-      </div>
-      <div class="inputContainer">
-        <div class="inputOne">
-          <input class="userInputs" id="firstName" type="text" required />
-          <label for="firstName" id="labelFirstName">
-            <span id="infoOne">Username</span>
-          </label>
-        </div>
-        <div class="inputTwo">
-          <input class="userInputs" id="password" type="text" required />
-          <label for="password" id="labelPassword">
-            <span id="infoTwo">Password</span>
-          </label>
-        </div>
-        <div class="button">
-          <button id="buttonInput">CONTINUE</button>
-        </div>
-      </div>
-    </div>
+    <script type="module" src="sign-in.js"></script>
   </body>
 </html>
