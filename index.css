@@ -58,7 +58,8 @@
   padding-bottom: 5px;
   margin-top: 25px;
 }
-#firstName:focus + label > span {
+#firstName:focus + label > span,
+#firstName:valid + label > span {
   -webkit-transition: top 0.2s ease, font-size 0.2s ease;
   transition: top 0.2s ease, font-size 0.2s ease;
   position: relative;
@@ -85,7 +86,8 @@
   padding-bottom: 5px;
   margin-top: 25px;
 }
-#lastName:focus + label > span {
+#lastName:focus + label > span,
+#lastName:valid + label > span {
   -webkit-transition: top 0.2s ease, font-size 0.2s ease;
   transition: top 0.2s ease, font-size 0.2s ease;
   position: relative;
@@ -120,7 +122,8 @@
   padding-bottom: 5px;
   margin-top: 25px;
 }
-#email:focus + label > span {
+#email:focus + label > span,
+#email:valid + label > span {
   -webkit-transition: top 0.2s ease, font-size 0.2s ease;
   transition: top 0.2s ease, font-size 0.2s ease;
   position: relative;
@@ -154,7 +157,8 @@
   padding-bottom: 5px;
   margin-top: 25px;
 }
-#websiteName:focus + label > span {
+#websiteName:focus + label > span,
+#websiteName:valid + label > span {
   -webkit-transition: top 0.2s ease, font-size 0.2s ease;
   transition: top 0.2s ease, font-size 0.2s ease;
   position: relative;
@@ -193,7 +197,8 @@
   padding-bottom: 5px;
   margin-top: 25px;
 }
-#message:focus + label > span {
+#message:focus + label > span,
+#message:valid + label > span {
   -webkit-transition: top 0.2s ease, font-size 0.2s ease;
   transition: top 0.2s ease, font-size 0.2s ease;
   position: relative;
@@ -243,7 +248,7 @@
   border-style: none;
   text-transform: uppercase;
   margin-right: 74%;
-  margin-top: 4%;
+  margin-top: 1%;
 }
 
 

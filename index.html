@@ -13,37 +13,69 @@
         <h1 id="title">Responsive Contact Us Form</h1>
         <div class="rows1">
           <div id="setOne">
-            <input class="userInputs" id="firstName" type="text" />
+            <input class="userInputs" id="firstName" type="text" required />
             <label for="firstName" id="labelFirstName">
               <span id="infoOne">First Name</span>
             </label>
+            <span id="required1" style="color: red;font-size: 12px;display: none;"
+            >Please enter your First Name.</span
+          >
+          <span id="validated1" style="color: red;font-size: 12px;display: none;"
+          >Must be longer 3 characters.</span
+        >
           </div>
           <div id="setTwo">
-            <input class="userInputs1" id="lastName" type="text" />
+            <input class="userInputs1" id="lastName" type="text" required />
             <label for="lastName" id="labelLastName">
               <span>Last Name</span>
             </label>
+            <span id="required2" style="color: red;font-size: 12px;display: none;"
+            >Please enter your Last Name</span
+          >
+          <span id="validated2" style="color: red;font-size: 12px;display: none;"
+          >Must be longer 3 characters.</span
+        >
           </div>
         </div>
         <div class="rows2">
           <div id="setThree">
-            <input class="userInputs2" id="email" type="text" />
+            <input class="userInputs2" id="email" type="text" required />
             <label for="email" id="labelEmail">
               <span>Email Address</span>
             </label>
+            <span id="required3" style="color: red;font-size: 12px;display: none;"
+            >Please enter your Email Address</span
+          >
+          <span id="validated3" style="color: red;font-size: 12px;display: none;"
+          >Must be longer 3 characters.</span
+        >
           </div>
           <div id="setFour">
-            <input class="userInputs3" id="websiteName" type="text" />
+            <input class="userInputs3" id="websiteName" type="text" required />
             <label for="websiteName" id="labelWebsiteName">
               <span>Website Name</span>
+              
             </label>
+            <span id="required4" style="color: red;font-size: 12px;display: none;"
+              >Please enter your Website Name</span
+            >
+            <span id="validated4" style="color: red;font-size: 12px;display: none;"
+            >Must be longer 3 characters.</span
+          >
+           
           </div>
         </div>
         <div class="rows3" id="setFive">
-          <input class="userInputs4" id="message" type="text" />
+          <input class="userInputs4" id="message" type="text" required />
           <label for="message" id="labelMessage">
             <span>Write your message</span>
           </label>
+          <span id="required5" style="color: red;font-size: 12px;display: none;"
+          >Please enter your Message</span
+        >
+        <span id="validated5" style="color: red;font-size: 12px;display: none;"
+        >Must be longer 3 characters.</span
+      >
         </div>
         <div id="submit">
           <button class="rows4">submit</button>
